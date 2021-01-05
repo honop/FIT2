@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>最終課題</title>
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <script src="fita.js"></script>
+  </head>
+
+  <body>
+    <h1>問題4</h1>
+    <div class="wrapper">
+    <p　class="txt">
+      プログラムの実行結果が次のようになるには、どのような繰り返しを書けば良いか、空欄を埋めなさい。但し白いマスは初期状態のままで、黒いマスのみ描画するものとし、マスのサイズは１０ドット×１０ドットとする。また変数ctxには、canvasの２D描画コンテクストが設定されているものとする。
+    </p>
+  </div>
+
+  <img src="photo/fitcanvas.png" alt="photo" width="500">
+
+    <div class="box1">
+    <p><font size="2" id="correct">(数字は半角で入力してね！)</font></p>
+
+<div class="wrapper1">
+   <p class="txt">
+     (A)
+     <br>
+     for(<input maxlength="23" type="text" id="a">){
+       <br>
+       ctx fillRect(<input type="text" maxlength="1" id="b">,<input type="text" maxlength="4" id="c">,10,10);
+       <br>
+     }
+   </p>
+ </div>
+ <br>
+<p class="txt">
+  (B)
+  <br>
+  for(<input type="text" maxlength="23" id="d">){
+    <br>
+    for(<input type="text" maxlength="23" id="e">){
+      <br>
+      if(<input type="text" maxlength="12" id="f">){
+      <br>
+      ctx fillRect(<input type="text" maxlength="1" id="g">,<input type="text" maxlength="1" id="h">,10,10);
+      <br>
+    }
+    <br>
+    }
+    <br>
+    }
+</p>
+</div>
+
+<div id="over"><input type="button" class="square_btn1" value="CHECK" onclick="q4();"></div>
+
+  </body>
+</html>
